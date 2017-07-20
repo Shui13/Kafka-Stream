@@ -1,0 +1,112 @@
+{
+	"input_topic": "gin",
+	"output_topic": "s6",
+	"bootstrap_server_list": "dev-anta-tools04.kendall.corp.akamai.com:9092",
+	"commit_interval_ms": "10",
+	"application_id": "dobby",
+	"log_file_loc": "/u0/sshivayo/kStreamLogs/log4j.properties",
+	"f_line": [
+		{
+			"position": 0,
+			"name": "cpcode",
+			"type": "Int64F"
+		},
+		{
+			"position": 1,
+			"name": "edge_ip",
+			"type": "Strf"
+		},
+		{
+			"position": 2,
+			"name": "region_id",
+			"type": "Int64F"
+		},
+		{
+			"position": 3,
+			"name": "record_tag",
+			"type": "Strf"
+		},
+		{
+			"position": 4,
+			"name": "timestamp",
+			"type": "Dblf"
+		},
+		{
+			"position": 5,
+			"name": "http_status",
+			"type": "Int32"
+		},
+		{
+			"position": 6,
+			"name": "object_status",
+			"type": "Strf"
+		},
+		{
+			"position": 7,
+			"name": "request_id",
+			"type": "Strf"
+		},
+		{
+			"position": 8,
+			"name": "fwd_error",
+			"type": "Strf"
+		}
+	],
+	"r_line": [
+		{
+			"position": 0,
+			"name": "cpcode",
+			"type": "Int64F"
+		},
+		{
+			"position": 1,
+			"name": "edge_ip",
+			"type": "Strf"
+		},
+		{
+			"position": 2,
+			"name": "region_id",
+			"type": "Int64F"
+		},
+		{
+			"position": 3,
+			"name": "city",
+			"type": "Strf"
+		},
+		{
+			"position": 4,
+			"name": "country_code",
+			"type": "Strf"
+		},
+		{
+			"position": 5,
+			"name": "record_tag",
+			"type": "Strf"
+		},
+		{
+			"position": 6,
+			"name": "timestamp",
+			"type": "Dblf"
+		},
+		{
+			"position": 7,
+			"name": "http_status",
+			"type": "Int32"
+		},
+		{
+			"position": 8,
+			"name": "error",
+			"type": "Strf"
+		},
+		{
+			"position": 9,
+			"name": "object_status",
+			"type": "Strf"
+		},
+		{
+			"position": 10,
+			"name": "request_id",
+			"type": "Strf"
+		}
+	]
+}
